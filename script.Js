@@ -14,7 +14,7 @@ function checkLogin() {
 for (let i = 0; i < validCredentials.length; i++) {
         if (foundUser === validCredentials[i]) {
             console.log("Login successful.");
-            window.location.href = "loginsuccess.html";
+            window.location.href = "successful.html";
             return;
         }
         console.log('Error: Invalid username or password. Please try again.');
